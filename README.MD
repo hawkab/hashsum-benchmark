@@ -13,6 +13,7 @@ works, and factor in a small probability of new VM bugs. Additionally, while com
 different JVMs are already problematic, the performance difference caused by different Blackhole
 modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
 
+```
 Benchmark                                   (size)    Mode      Cnt          Score          Error   Units
 Main.blake2b_128                               64K   thrpt       10         ≈ 10⁻⁵                 ops/ns
 Main.blake2b_128                              512K   thrpt       10         ≈ 10⁻⁶                 ops/ns
@@ -446,5 +447,5 @@ Main.xxhash64                                  64K      ss       10    1132906,4
 Main.xxhash64                                 512K      ss       10    1136603,800 ±  3514485,009   ns/op
 Main.xxhash64                                   4M      ss       10    1362629,800 ±  3368274,978   ns/op
 Main.xxhash64                                  20M      ss       10    2518430,000 ±  3758065,621   ns/op
-
+```
 Process finished with exit code 0

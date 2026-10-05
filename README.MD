@@ -449,3 +449,7 @@ Main.xxhash64                                   4M      ss       10    1362629,8
 Main.xxhash64                                  20M      ss       10    2518430,000 ±  3758065,621   ns/op
 ```
 Process finished with exit code 0
+
+[![Support this project · TON network](https://hawkab.github.io/support/support-button.svg)](https://hawkab.github.io/support/)
+
+Optional contributions support development, maintenance and testing. The [support page](https://hawkab.github.io/support/) has a QR code, wallet link and copy buttons, and works on computers and phones. You choose the amount in your wallet.
